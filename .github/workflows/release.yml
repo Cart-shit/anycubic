@@ -111,7 +111,6 @@ jobs:
           gh release create "$TAG" \
             --title "rkmpi-encoder v${VERSION}" \
             --notes-file /tmp/notes.md \
-            --overwrite \
             rkmpi-encoder/rkmpi_enc
 
   # ==========================================================================
@@ -170,7 +169,6 @@ jobs:
           gh release create "$TAG" \
             --title "fb-status v${VERSION}" \
             --notes-file /tmp/notes.md \
-            --overwrite \
             fb-status/fb_status
 
   # ==========================================================================
@@ -264,5 +262,4 @@ jobs:
           gh release create "$TAG" \
             --title "h264-streamer v${VERSION}" \
             --notes-file /tmp/notes.md \
-            --overwrite \
             dist/*.swu
