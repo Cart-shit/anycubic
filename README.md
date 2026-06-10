@@ -147,7 +147,7 @@ cd fb-status && make
 
 ## Related Projects
 
-- [Rinkhals](https://github.com/jbatonnet/Rinkhals) - Custom firmware for Anycubic printers
+- [Rinkhals](https://github.com/Rinkhals-Community/Rinkhals) - Custom firmware for Anycubic printers
 
 ## License
 
